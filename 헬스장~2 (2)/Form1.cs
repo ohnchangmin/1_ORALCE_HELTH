@@ -7,32 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OracleClient;
+using Oracle.DataAccess.Client;
 
 namespace 헬스장프로그램
 {
 
     public partial class Form1 : Form
     {
-        OracleConnection conn;
         public Form1()
         {
             InitializeComponent();
-            string connStr = ("Data Source=XE; User ID=HEALTH; Password=1234; Unicode=True");
-            conn = new OracleConnection(connStr);
         }
-
-        private void open_conn()
-        {
-            if (conn.State == ConnectionState.Closed) conn.Open();
-        }
-
-
-
-
-
-
-
 
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -59,11 +44,6 @@ namespace 헬스장프로그램
         {
             timer1.Start();
         }
-
-
-
-
-
 
 
         private void pictureBox4_Click_1(object sender, EventArgs e)

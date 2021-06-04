@@ -59,6 +59,7 @@ namespace 헬스장프로그램
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(83, 271);
             this.dataGridView1.Name = "dataGridView1";

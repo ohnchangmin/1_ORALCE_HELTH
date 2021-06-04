@@ -7,16 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OracleClient;
+using Oracle.DataAccess.Client;
 
 namespace 헬스장프로그램
 {
     public partial class Form7 : Form
     {
-        OracleConnection conn;
+        static string conStr = "Data Source=XE; User ID=health; Password=1234;";
+        OracleConnection conn = new OracleConnection(conStr);
+
         public Form7()
         {
             InitializeComponent();
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -50,31 +53,34 @@ namespace 헬스장프로그램
 
         private void grid(string query)
         {
+            conn.Open();
             DataSet ds = new DataSet();
             OracleDataAdapter da = new OracleDataAdapter(query, conn);
-            da.Fill(ds, "CUSTOMER");
+            da.Fill(ds);
 
-            dataGridView1.DataSource = ds;
-            dataGridView1.DataMember = "CUSTOMER";
+            dataGridView1.DataSource = ds.Tables[0];
+    
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (name.Text != null && tel.Text != null)
+            if (name.Text != "" && tel.Text != "")
             {
-                string query = "SELECT * FROM CUSTOMER WHERE NAME = '" + name + "' AND TEL = '" + tel + "';";
+                string query = "SELECT * FROM CUSTOMER WHERE NAME = '" + name + "' AND TEL = '" + tel + "'";
                 grid(query);
             }
 
-            else if (name.Text != null && tel.Text == null)
+            else if (name.Text != "" && tel.Text == "")
             {
-                string query = "SELECT * FROM CUSTOMER WHERE NAME = '" + name + "';";
+                string query = "SELECT * FROM CUSTOMER WHERE NAME = '" + name.Text + "'";
                 grid(query);
             }
 
-            else if (name.Text == null && tel.Text != null)
+            else if (name.Text == "" && tel.Text != "")
             {
-                string query = "SELECT * FROM CUSTOMER WHERE TEL = '" + tel + "';";
+                
+                string query = "SELECT * FROM CUSTOMER WHERE TEL = '" + tel + "'";
+                grid(query);
             }
 
             else
