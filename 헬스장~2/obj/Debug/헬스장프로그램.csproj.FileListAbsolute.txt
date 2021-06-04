@@ -60,3 +60,5 @@ C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.c
 C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.exe
 C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.pdb
 C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.Form8.resources
+C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.Form8.resources
+C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.Form9.resources
