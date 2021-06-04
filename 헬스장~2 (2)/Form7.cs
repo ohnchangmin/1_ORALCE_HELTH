@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OracleClient;
 
 namespace 헬스장프로그램
 {
     public partial class Form7 : Form
     {
+        OracleConnection conn;
         public Form7()
         {
             InitializeComponent();
@@ -44,6 +46,41 @@ namespace 헬스장프로그램
         private void Form7_Load(object sender, EventArgs e)
         {
             timer1.Start();
+        }
+
+        private void grid(string query)
+        {
+            DataSet ds = new DataSet();
+            OracleDataAdapter da = new OracleDataAdapter(query, conn);
+            da.Fill(ds, "CUSTOMER");
+
+            dataGridView1.DataSource = ds;
+            dataGridView1.DataMember = "CUSTOMER";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (name.Text != null && tel.Text != null)
+            {
+                string query = "SELECT * FROM CUSTOMER WHERE NAME = '" + name + "' AND TEL = '" + tel + "';";
+                grid(query);
+            }
+
+            else if (name.Text != null && tel.Text == null)
+            {
+                string query = "SELECT * FROM CUSTOMER WHERE NAME = '" + name + "';";
+                grid(query);
+            }
+
+            else if (name.Text == null && tel.Text != null)
+            {
+                string query = "SELECT * FROM CUSTOMER WHERE TEL = '" + tel + "';";
+            }
+
+            else
+            {
+                MessageBox.Show("조회할 회원을 입력하세요.", "회원조회", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }
