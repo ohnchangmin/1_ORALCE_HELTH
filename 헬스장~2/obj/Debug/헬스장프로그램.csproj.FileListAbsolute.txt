@@ -43,3 +43,17 @@ C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.csproj.GenerateR
 C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.csproj.CoreCompileInputs.cache
 C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.exe
 C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.pdb
+D:\github\1_ORALCE_HELTH\헬스장~2\bin\Debug\헬스장프로그램.exe.config
+D:\github\1_ORALCE_HELTH\헬스장~2\bin\Debug\헬스장프로그램.exe
+D:\github\1_ORALCE_HELTH\헬스장~2\bin\Debug\헬스장프로그램.pdb
+D:\github\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.csprojAssemblyReference.cache
+D:\github\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.Form2.resources
+D:\github\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.Form1.resources
+D:\github\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.Form3.resources
+D:\github\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.Form6.resources
+D:\github\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.Form7.resources
+D:\github\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.Properties.Resources.resources
+D:\github\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.csproj.GenerateResource.cache
+D:\github\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.csproj.CoreCompileInputs.cache
+D:\github\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.exe
+D:\github\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.pdb
