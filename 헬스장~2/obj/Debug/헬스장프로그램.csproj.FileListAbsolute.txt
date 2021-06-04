@@ -43,6 +43,7 @@ C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.csproj.GenerateR
 C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.csproj.CoreCompileInputs.cache
 C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.exe
 C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.pdb
+<<<<<<< HEAD
 D:\github\1_ORALCE_HELTH\헬스장~2\bin\Debug\헬스장프로그램.exe.config
 D:\github\1_ORALCE_HELTH\헬스장~2\bin\Debug\헬스장프로그램.exe
 D:\github\1_ORALCE_HELTH\헬스장~2\bin\Debug\헬스장프로그램.pdb
@@ -57,3 +58,20 @@ D:\github\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.csproj.Gene
 D:\github\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.csproj.CoreCompileInputs.cache
 D:\github\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.exe
 D:\github\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.pdb
+=======
+C:\Users\KB\Documents\GitHub\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.csprojAssemblyReference.cache
+C:\Users\KB\Documents\GitHub\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.Form2.resources
+C:\Users\KB\Documents\GitHub\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.Properties.Resources.resources
+C:\Users\KB\Documents\GitHub\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.csproj.GenerateResource.cache
+C:\Users\KB\Documents\GitHub\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.csproj.CoreCompileInputs.cache
+C:\Users\KB\Documents\GitHub\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.exe
+C:\Users\KB\Documents\GitHub\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.pdb
+C:\Users\KB\Documents\GitHub\1_ORALCE_HELTH\헬스장~2\bin\Debug\헬스장프로그램.exe.config
+C:\Users\KB\Documents\GitHub\1_ORALCE_HELTH\헬스장~2\bin\Debug\헬스장프로그램.exe
+C:\Users\KB\Documents\GitHub\1_ORALCE_HELTH\헬스장~2\bin\Debug\헬스장프로그램.pdb
+C:\Users\KB\Documents\GitHub\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.F_main.resources
+C:\Users\KB\Documents\GitHub\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.F_member.resources
+C:\Users\KB\Documents\GitHub\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.F_welcome.resources
+C:\Users\KB\Documents\GitHub\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.F_inquiry.resources
+C:\Users\KB\Documents\GitHub\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.F_cheak.resources
+>>>>>>> 164d5bcae650c95f7f294ae80073aa4ed48d66e1

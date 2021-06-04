@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace 헬스장프로그램
 {
-    public partial class Form7 : Form
+    public partial class F_inquiry : Form
     {
-        public Form7()
+        public F_inquiry()
         {
             InitializeComponent();
         }
@@ -25,7 +25,7 @@ namespace 헬스장프로그램
         private void button1_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            Form1 showForm1 = new Form1();
+            F_main showForm1 = new F_main();
             showForm1.Show();
         }
     }

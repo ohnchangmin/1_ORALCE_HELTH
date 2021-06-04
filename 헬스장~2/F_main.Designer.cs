@@ -1,7 +1,7 @@
 ﻿
 namespace 헬스장프로그램
 {
-    partial class Form1
+    partial class F_main
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -30,7 +30,7 @@ namespace 헬스장프로그램
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_main));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
