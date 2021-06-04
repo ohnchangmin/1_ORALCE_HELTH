@@ -63,29 +63,9 @@ namespace 헬스장프로그램.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap PPT디자인2_1 {
+        internal static System.Drawing.Bitmap _215_2152916_white_home_button_icon_png_download_white_homepage {
             get {
-                object obj = ResourceManager.GetObject("PPT디자인2-1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
-        /// </summary>
-        internal static System.Drawing.Bitmap winforms_디자인2 {
-            get {
-                object obj = ResourceManager.GetObject("winforms 디자인2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
-        /// </summary>
-        internal static System.Drawing.Bitmap workout_icons_5497868_1280 {
-            get {
-                object obj = ResourceManager.GetObject("workout-icons-5497868_1280", resourceCulture);
+                object obj = ResourceManager.GetObject("_215_2152916_white_home_button_icon_png_download_white_homepage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
