@@ -29,7 +29,8 @@ namespace 헬스장프로그램
         /// </summary>
         private void InitializeComponent()
         {
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -37,12 +38,10 @@ namespace 헬스장프로그램
             this.t_name = new System.Windows.Forms.TextBox();
             this.t_tel = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.t_period = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.b_finish = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.t_address = new System.Windows.Forms.TextBox();
@@ -50,7 +49,11 @@ namespace 헬스장프로그램
             this.woman = new System.Windows.Forms.RadioButton();
             this.label9 = new System.Windows.Forms.Label();
             this.t_rocker = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.t_day = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -125,23 +128,20 @@ namespace 헬스장프로그램
             this.button3.Text = "가입  완료";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // backgroundWorker2
+            // t_period
             // 
-            this.backgroundWorker2.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker2_DoWork);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.t_period.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.t_period.FormattingEnabled = true;
+            this.t_period.Items.AddRange(new object[] {
             "1개월",
             "2개월",
             "3개월"});
-            this.comboBox1.Location = new System.Drawing.Point(159, 328);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(5);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(276, 28);
-            this.comboBox1.TabIndex = 13;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.t_period.Location = new System.Drawing.Point(159, 328);
+            this.t_period.Margin = new System.Windows.Forms.Padding(5);
+            this.t_period.Name = "t_period";
+            this.t_period.Size = new System.Drawing.Size(276, 28);
+            this.t_period.TabIndex = 13;
+            this.t_period.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -174,26 +174,15 @@ namespace 헬스장프로그램
             this.b_finish.UseVisualStyleBackColor = true;
             this.b_finish.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button7
-            // 
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.Location = new System.Drawing.Point(38, 22);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(109, 46);
-            this.button7.TabIndex = 19;
-            this.button7.Text = "이전화면";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
             // label7
             // 
-            this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("굴림", 60F);
-            this.label7.Location = new System.Drawing.Point(225, 9);
+            this.label7.Location = new System.Drawing.Point(0, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(541, 80);
+            this.label7.Size = new System.Drawing.Size(1060, 100);
             this.label7.TabIndex = 20;
             this.label7.Text = "신규 회원등록";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label8
             // 
@@ -214,6 +203,7 @@ namespace 헬스장프로그램
             // man
             // 
             this.man.AutoSize = true;
+            this.man.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.man.Location = new System.Drawing.Point(159, 269);
             this.man.Name = "man";
             this.man.Size = new System.Drawing.Size(67, 24);
@@ -221,10 +211,12 @@ namespace 헬스장프로그램
             this.man.TabStop = true;
             this.man.Text = "남자";
             this.man.UseVisualStyleBackColor = true;
+            this.man.CheckedChanged += new System.EventHandler(this.man_CheckedChanged);
             // 
             // woman
             // 
             this.woman.AutoSize = true;
+            this.woman.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.woman.Location = new System.Drawing.Point(251, 271);
             this.woman.Name = "woman";
             this.woman.Size = new System.Drawing.Size(67, 24);
@@ -232,6 +224,7 @@ namespace 헬스장프로그램
             this.woman.TabStop = true;
             this.woman.Text = "여자";
             this.woman.UseVisualStyleBackColor = true;
+            this.woman.CheckedChanged += new System.EventHandler(this.woman_CheckedChanged);
             // 
             // label9
             // 
@@ -249,31 +242,61 @@ namespace 헬스장프로그램
             this.t_rocker.Size = new System.Drawing.Size(276, 30);
             this.t_rocker.TabIndex = 28;
             // 
-            // textBox4
+            // t_day
             // 
-            this.textBox4.Location = new System.Drawing.Point(159, 379);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(276, 30);
-            this.textBox4.TabIndex = 27;
+            this.t_day.Location = new System.Drawing.Point(159, 379);
+            this.t_day.Name = "t_day";
+            this.t_day.Size = new System.Drawing.Size(276, 30);
+            this.t_day.TabIndex = 27;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(75, 75);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 29;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label10.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label10.Location = new System.Drawing.Point(930, 10);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(108, 19);
+            this.label10.TabIndex = 33;
+            this.label10.Text = "tt 00:00:00";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form3
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1059, 615);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.t_rocker);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.t_day);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.woman);
             this.Controls.Add(this.man);
             this.Controls.Add(this.t_address);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button7);
             this.Controls.Add(this.b_finish);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.t_period);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.t_tel);
             this.Controls.Add(this.t_name);
@@ -287,15 +310,16 @@ namespace 헬스장프로그램
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -303,12 +327,10 @@ namespace 헬스장프로그램
         private System.Windows.Forms.TextBox t_name;
         private System.Windows.Forms.TextBox t_tel;
         private System.Windows.Forms.Button button3;
-        private System.ComponentModel.BackgroundWorker backgroundWorker2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox t_period;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button b_finish;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox t_address;
@@ -316,6 +338,9 @@ namespace 헬스장프로그램
         private System.Windows.Forms.RadioButton woman;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox t_rocker;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox t_day;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Timer timer1;
     }
 }

@@ -100,5 +100,12 @@ namespace 헬스장프로그램
         {
             timer1.Start();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Form1 showForm1 = new Form1();
+            showForm1.Show();
+        }
     }
 }
