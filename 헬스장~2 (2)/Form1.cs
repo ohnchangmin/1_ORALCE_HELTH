@@ -71,9 +71,7 @@ namespace 헬스장프로그램
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
-            Form8 showForm8 = new Form8();
-            showForm8.Show();
+ 
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -88,19 +86,22 @@ namespace 헬스장프로그램
 
         private void button5_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("점검중 입니다","오류");
+            MessageBox.Show("점검중 입니다","요류");
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("점검중 입니다", "오류");
+            MessageBox.Show("점검중 입니다", "요류");
+        }
+
+        private void pictureBox5_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("점검중 입니다", "요류");
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
-            Form8 showForm8 = new Form8();
-            showForm8.Show();
+   
         }
 
         private void pictureBox4_Click_1(object sender, EventArgs e)
@@ -110,9 +111,19 @@ namespace 헬스장프로그램
             showForm7.Show();
         }
 
-        private void pictureBox6_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
