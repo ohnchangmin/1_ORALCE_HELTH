@@ -21,12 +21,29 @@ namespace 헬스장프로그램
 
         private void Form8_Load(object sender, EventArgs e)
         {
-          
+            timer1.Start();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Form1 showForm1 = new Form1();
+            showForm1.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label5.Text = DateTime.Now.ToString("tt h:mm:ss");
         }
     }
 }

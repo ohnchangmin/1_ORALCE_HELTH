@@ -19,11 +19,12 @@ namespace 헬스장프로그램
 
         private void button1_Click(object sender, EventArgs e)
         {
-            /* MessageBox.Show("축하드립니다","환영); */
+            MessageBox.Show("축하드립니다", "환영");
+            Application.OpenForms["Form3"].Close();
             this.Visible = false;
             Form1 showForm1 = new Form1();
 
-            Application.OpenForms["Form3"].Close();
+            
 
             showForm1.Show();
                         

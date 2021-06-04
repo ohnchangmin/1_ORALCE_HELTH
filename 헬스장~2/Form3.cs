@@ -70,5 +70,22 @@ namespace 헬스장프로그램
         {
             gender = "여자";
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Form1 showForm1 = new Form1();
+            showForm1.Show();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label10.Text = DateTime.Now.ToString("tt h:mm:ss");
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
     }
 }
