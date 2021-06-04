@@ -49,10 +49,10 @@ namespace 헬스장프로그램
             this.woman = new System.Windows.Forms.RadioButton();
             this.label9 = new System.Windows.Forms.Label();
             this.t_rocker = new System.Windows.Forms.TextBox();
-            this.t_day = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -242,13 +242,6 @@ namespace 헬스장프로그램
             this.t_rocker.Size = new System.Drawing.Size(276, 30);
             this.t_rocker.TabIndex = 28;
             // 
-            // t_day
-            // 
-            this.t_day.Location = new System.Drawing.Point(159, 379);
-            this.t_day.Name = "t_day";
-            this.t_day.Size = new System.Drawing.Size(276, 30);
-            this.t_day.TabIndex = 27;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -278,15 +271,24 @@ namespace 헬스장프로그램
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CustomFormat = "yyyy-MM-dd";
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker1.Location = new System.Drawing.Point(159, 376);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(276, 30);
+            this.dateTimePicker1.TabIndex = 34;
+            // 
             // Form3
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1059, 615);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.t_rocker);
-            this.Controls.Add(this.t_day);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.woman);
             this.Controls.Add(this.man);
@@ -338,9 +340,9 @@ namespace 헬스장프로그램
         private System.Windows.Forms.RadioButton woman;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox t_rocker;
-        private System.Windows.Forms.TextBox t_day;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
