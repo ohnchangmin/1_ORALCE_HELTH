@@ -50,11 +50,11 @@
     <Compile Include="Button_WOC.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="F_main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="F_main.Designer.cs">
+      <DependentUpon>F_main.cs</DependentUpon>
     </Compile>
     <Compile Include=".cs">
       <SubType>Form</SubType>
@@ -63,40 +63,49 @@
       <DependentUpon>.cs</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="F_member.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="F_member.Designer.cs">
+      <DependentUpon>F_member.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form6.cs">
+    <Compile Include="F_welcome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6.Designer.cs">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <Compile Include="F_welcome.Designer.cs">
+      <DependentUpon>F_welcome.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form7.cs">
+    <Compile Include="F_inquiry.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7.Designer.cs">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <Compile Include="F_inquiry.Designer.cs">
+      <DependentUpon>F_inquiry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_cheak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_cheak.Designer.cs">
+      <DependentUpon>F_cheak.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include=".resx">
       <DependentUpon>.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="F_main.resx">
+      <DependentUpon>F_main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="F_member.resx">
+      <DependentUpon>F_member.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form6.resx">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <EmbeddedResource Include="F_welcome.resx">
+      <DependentUpon>F_welcome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7.resx">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <EmbeddedResource Include="F_inquiry.resx">
+      <DependentUpon>F_inquiry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_cheak.resx">
+      <DependentUpon>F_cheak.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

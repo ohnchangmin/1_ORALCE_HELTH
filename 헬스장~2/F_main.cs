@@ -12,9 +12,9 @@ using Oracle.DataAccess.Client;
 namespace 헬스장프로그램
 {
 
-    public partial class Form1 : Form
+    public partial class F_main : Form
     {
-        public Form1()
+        public F_main()
         {
             InitializeComponent();
         }
@@ -22,7 +22,7 @@ namespace 헬스장프로그램
         private void button1_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            Form3 showForm3 = new Form3();
+            F_member showForm3 = new F_member();
             showForm3.Show();
         }
 
@@ -44,28 +44,28 @@ namespace 헬스장프로그램
         private void button2_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            Form6 showForm6 = new Form6();
+            F_welcome showForm6 = new F_welcome();
             showForm6.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            Form7 showForm7 = new Form7();
+            F_inquiry showForm7 = new F_inquiry();
             showForm7.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            Form3 showForm3 = new Form3();
+            F_member showForm3 = new F_member();
             showForm3.Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            Form6 showForm6 = new Form6();
+            F_welcome showForm6 = new F_welcome();
             showForm6.Show();
         }
 
@@ -107,7 +107,7 @@ namespace 헬스장프로그램
         private void pictureBox4_Click_1(object sender, EventArgs e)
         {
             this.Visible = false;
-            Form7 showForm7 = new Form7();
+            F_inquiry showForm7 = new F_inquiry();
             showForm7.Show();
         }
     }

@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace 헬스장프로그램
 {
-    public partial class Form2 : 헬스장프로그램.Form1
+    public partial class Form2 : 헬스장프로그램.F_main
     {
         public Form2()
         {

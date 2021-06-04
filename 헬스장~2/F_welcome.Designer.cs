@@ -1,7 +1,7 @@
 ﻿
 namespace 헬스장프로그램
 {
-    partial class Form6
+    partial class F_welcome
     {
         /// <summary>
         /// Required designer variable.
