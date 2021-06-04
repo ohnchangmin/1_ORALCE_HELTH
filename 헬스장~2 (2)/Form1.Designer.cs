@@ -102,7 +102,6 @@ namespace 헬스장프로그램
             this.label3.Size = new System.Drawing.Size(204, 43);
             this.label3.TabIndex = 15;
             this.label3.Text = "헬스장 관리";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -131,6 +130,7 @@ namespace 헬스장프로그램
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Tomato;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Location = new System.Drawing.Point(390, 119);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(278, 216);
@@ -141,43 +141,52 @@ namespace 헬스장프로그램
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Orange;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Location = new System.Drawing.Point(686, 120);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(278, 216);
             this.pictureBox1.TabIndex = 22;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.YellowGreen;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Location = new System.Drawing.Point(391, 354);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(278, 216);
             this.pictureBox3.TabIndex = 23;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_1);
             // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Location = new System.Drawing.Point(94, 354);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(278, 216);
             this.pictureBox4.TabIndex = 24;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click_2);
             // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Location = new System.Drawing.Point(686, 354);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(278, 216);
             this.pictureBox5.TabIndex = 25;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click_2);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Orange;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("나눔고딕", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(725, 173);
@@ -185,11 +194,13 @@ namespace 헬스장프로그램
             this.label1.Size = new System.Drawing.Size(102, 69);
             this.label1.TabIndex = 26;
             this.label1.Text = "02";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Orange;
+            this.label6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label6.Font = new System.Drawing.Font("나눔고딕", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label6.Location = new System.Drawing.Point(809, 180);
@@ -197,11 +208,13 @@ namespace 헬스장프로그램
             this.label6.Size = new System.Drawing.Size(114, 55);
             this.label6.TabIndex = 27;
             this.label6.Text = "입장";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Orange;
+            this.label7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label7.Font = new System.Drawing.Font("나눔고딕", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label7.Location = new System.Drawing.Point(735, 250);
@@ -210,11 +223,13 @@ namespace 헬스장프로그램
             this.label7.TabIndex = 28;
             this.label7.Text = "ENTRANCE";
             this.label7.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.label8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label8.Font = new System.Drawing.Font("나눔고딕", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label8.Location = new System.Drawing.Point(140, 484);
@@ -223,11 +238,13 @@ namespace 헬스장프로그램
             this.label8.TabIndex = 31;
             this.label8.Text = "EXTENSION";
             this.label8.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.label9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label9.Font = new System.Drawing.Font("나눔고딕", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label9.Location = new System.Drawing.Point(218, 410);
@@ -235,11 +252,13 @@ namespace 헬스장프로그램
             this.label9.Size = new System.Drawing.Size(114, 55);
             this.label9.TabIndex = 30;
             this.label9.Text = "연장";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.label10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label10.Font = new System.Drawing.Font("나눔고딕", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label10.Location = new System.Drawing.Point(133, 403);
@@ -247,11 +266,13 @@ namespace 헬스장프로그램
             this.label10.Size = new System.Drawing.Size(102, 69);
             this.label10.TabIndex = 29;
             this.label10.Text = "03";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.YellowGreen;
+            this.label11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label11.Font = new System.Drawing.Font("나눔고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label11.Location = new System.Drawing.Point(421, 477);
@@ -264,6 +285,7 @@ namespace 헬스장프로그램
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.YellowGreen;
+            this.label12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label12.Font = new System.Drawing.Font("나눔고딕", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label12.Location = new System.Drawing.Point(471, 420);
@@ -276,6 +298,7 @@ namespace 헬스장프로그램
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.YellowGreen;
+            this.label13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label13.Font = new System.Drawing.Font("나눔고딕", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label13.Location = new System.Drawing.Point(416, 419);
@@ -288,6 +311,7 @@ namespace 헬스장프로그램
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.label14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label14.Font = new System.Drawing.Font("나눔고딕", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label14.Location = new System.Drawing.Point(712, 491);
@@ -296,11 +320,13 @@ namespace 헬스장프로그램
             this.label14.TabIndex = 37;
             this.label14.Text = "EVENT SCHEDULE INQUIRY";
             this.label14.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.label15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label15.Font = new System.Drawing.Font("나눔고딕", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label15.Location = new System.Drawing.Point(752, 423);
@@ -308,11 +334,13 @@ namespace 헬스장프로그램
             this.label15.Size = new System.Drawing.Size(193, 34);
             this.label15.TabIndex = 36;
             this.label15.Text = "행사 일정 조회";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.label16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label16.Font = new System.Drawing.Font("나눔고딕", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label16.Location = new System.Drawing.Point(708, 423);
@@ -320,11 +348,13 @@ namespace 헬스장프로그램
             this.label16.Size = new System.Drawing.Size(51, 34);
             this.label16.TabIndex = 35;
             this.label16.Text = "05";
+            this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Tomato;
+            this.label17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label17.Font = new System.Drawing.Font("나눔고딕", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label17.Location = new System.Drawing.Point(411, 253);
@@ -333,11 +363,13 @@ namespace 헬스장프로그램
             this.label17.TabIndex = 40;
             this.label17.Text = "NEW REGISTRATION";
             this.label17.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.Tomato;
+            this.label18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label18.Font = new System.Drawing.Font("나눔고딕", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label18.Location = new System.Drawing.Point(469, 183);
@@ -351,6 +383,7 @@ namespace 헬스장프로그램
             // 
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.Tomato;
+            this.label19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label19.Font = new System.Drawing.Font("나눔고딕", 30.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label19.Location = new System.Drawing.Point(409, 182);
@@ -358,11 +391,13 @@ namespace 헬스장프로그램
             this.label19.Size = new System.Drawing.Size(70, 47);
             this.label19.TabIndex = 38;
             this.label19.Text = "01";
+            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // label20
             // 
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.Color.YellowGreen;
+            this.label20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label20.Font = new System.Drawing.Font("나눔고딕", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label20.Location = new System.Drawing.Point(417, 416);
@@ -370,11 +405,13 @@ namespace 헬스장프로그램
             this.label20.Size = new System.Drawing.Size(68, 45);
             this.label20.TabIndex = 32;
             this.label20.Text = "04";
+            this.label20.Click += new System.EventHandler(this.label20_Click);
             // 
             // label21
             // 
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.Color.YellowGreen;
+            this.label21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label21.Font = new System.Drawing.Font("나눔고딕", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label21.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label21.Location = new System.Drawing.Point(473, 417);
@@ -382,11 +419,13 @@ namespace 헬스장프로그램
             this.label21.Size = new System.Drawing.Size(179, 45);
             this.label21.TabIndex = 33;
             this.label21.Text = "회원 조회";
+            this.label21.Click += new System.EventHandler(this.label21_Click);
             // 
             // label22
             // 
             this.label22.AutoSize = true;
             this.label22.BackColor = System.Drawing.Color.YellowGreen;
+            this.label22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label22.Font = new System.Drawing.Font("나눔고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label22.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label22.Location = new System.Drawing.Point(423, 488);
@@ -395,6 +434,7 @@ namespace 헬스장프로그램
             this.label22.TabIndex = 34;
             this.label22.Text = "MEMBER INQUIRY";
             this.label22.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.label22.Click += new System.EventHandler(this.label22_Click);
             // 
             // Form1
             // 
@@ -429,8 +469,10 @@ namespace 헬스장프로그램
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.label2);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
