@@ -34,8 +34,10 @@ namespace 헬스장프로그램
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button2 = new System.Windows.Forms.Button();
-            this.name = new System.Windows.Forms.TextBox();
-            this.tel = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -59,7 +61,6 @@ namespace 헬스장프로그램
             // 
             // dataGridView1
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(83, 271);
             this.dataGridView1.Name = "dataGridView1";
@@ -71,29 +72,48 @@ namespace 헬스장프로그램
             // 
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("굴림", 20F);
-            this.button2.Location = new System.Drawing.Point(743, 130);
+            this.button2.Location = new System.Drawing.Point(865, 130);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(84, 101);
+            this.button2.Size = new System.Drawing.Size(84, 108);
             this.button2.TabIndex = 3;
-            this.button2.Text = "조회";
+            this.button2.Text = "확인";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // name
+            // textBox1
             // 
-            this.name.Font = new System.Drawing.Font("굴림", 20F);
-            this.name.Location = new System.Drawing.Point(281, 130);
-            this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(444, 38);
-            this.name.TabIndex = 4;
+            this.textBox1.Font = new System.Drawing.Font("굴림", 20F);
+            this.textBox1.Location = new System.Drawing.Point(281, 130);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(444, 38);
+            this.textBox1.TabIndex = 4;
             // 
-            // tel
+            // textBox2
             // 
-            this.tel.Font = new System.Drawing.Font("굴림", 20F);
-            this.tel.Location = new System.Drawing.Point(281, 193);
-            this.tel.Name = "tel";
-            this.tel.Size = new System.Drawing.Size(444, 38);
-            this.tel.TabIndex = 5;
+            this.textBox2.Font = new System.Drawing.Font("굴림", 20F);
+            this.textBox2.Location = new System.Drawing.Point(281, 193);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(444, 38);
+            this.textBox2.TabIndex = 5;
+            // 
+            // button3
+            // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.Location = new System.Drawing.Point(743, 130);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(91, 38);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "입력";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.Location = new System.Drawing.Point(743, 193);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(91, 38);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "입력";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -153,8 +173,10 @@ namespace 헬스장프로그램
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.tel);
-            this.Controls.Add(this.name);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
@@ -175,8 +197,10 @@ namespace 헬스장프로그램
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox name;
-        private System.Windows.Forms.TextBox tel;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
