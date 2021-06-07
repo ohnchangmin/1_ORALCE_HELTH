@@ -1,0 +1,116 @@
+C:\Users\KB\source\repos\헬스장프로그램\bin\Debug\헬스장프로그램.exe.config
+C:\Users\KB\source\repos\헬스장프로그램\bin\Debug\헬스장프로그램.exe
+C:\Users\KB\source\repos\헬스장프로그램\bin\Debug\헬스장프로그램.pdb
+C:\Users\KB\source\repos\헬스장프로그램\obj\Debug\헬스장프로그램.Form1.resources
+C:\Users\KB\source\repos\헬스장프로그램\obj\Debug\헬스장프로그램.Properties.Resources.resources
+C:\Users\KB\source\repos\헬스장프로그램\obj\Debug\헬스장프로그램.csproj.GenerateResource.cache
+C:\Users\KB\source\repos\헬스장프로그램\obj\Debug\헬스장프로그램.csproj.CoreCompileInputs.cache
+C:\Users\KB\source\repos\헬스장프로그램\obj\Debug\헬스장프로그램.exe
+C:\Users\KB\source\repos\헬스장프로그램\obj\Debug\헬스장프로그램.pdb
+C:\Users\KB\source\repos\헬스장프로그램\obj\Debug\헬스장프로그램.Form2.resources
+C:\Users\KB\source\repos\헬스장프로그램\bin\Debug\Oracle.DataAccess.dll
+C:\Users\KB\source\repos\헬스장프로그램\obj\Debug\헬스장프로그램.Form3.resources
+C:\Users\KB\source\repos\헬스장프로그램\obj\Debug\헬스장프로그램.csproj.CopyComplete
+C:\Users\KB\source\repos\헬스장프로그램\obj\Debug\헬스장프로그램.Form6.resources
+C:\Users\KB\source\repos\헬스장프로그램\obj\Debug\헬스장프로그램.Form7.resources
+C:\Users\KB\Desktop\헬스장프로그램\bin\Debug\헬스장프로그램.exe.config
+C:\Users\KB\Desktop\헬스장프로그램\bin\Debug\헬스장프로그램.exe
+C:\Users\KB\Desktop\헬스장프로그램\bin\Debug\헬스장프로그램.pdb
+C:\Users\KB\Desktop\헬스장프로그램\bin\Debug\Oracle.DataAccess.dll
+C:\Users\KB\Desktop\헬스장프로그램\obj\Debug\헬스장프로그램.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\헬스장프로그램\obj\Debug\헬스장프로그램.Form2.resources
+C:\Users\KB\Desktop\헬스장프로그램\obj\Debug\헬스장프로그램.Form1.resources
+C:\Users\KB\Desktop\헬스장프로그램\obj\Debug\헬스장프로그램.Form3.resources
+C:\Users\KB\Desktop\헬스장프로그램\obj\Debug\헬스장프로그램.Form6.resources
+C:\Users\KB\Desktop\헬스장프로그램\obj\Debug\헬스장프로그램.Form7.resources
+C:\Users\KB\Desktop\헬스장프로그램\obj\Debug\헬스장프로그램.Properties.Resources.resources
+C:\Users\KB\Desktop\헬스장프로그램\obj\Debug\헬스장프로그램.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\헬스장프로그램\obj\Debug\헬스장프로그램.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\헬스장프로그램\obj\Debug\헬스장프로그램.csproj.CopyComplete
+C:\Users\KB\Desktop\헬스장프로그램\obj\Debug\헬스장프로그램.exe
+C:\Users\KB\Desktop\헬스장프로그램\obj\Debug\헬스장프로그램.pdb
+C:\Users\KB\Desktop\헬스장~2\bin\Debug\헬스장프로그램.exe.config
+C:\Users\KB\Desktop\헬스장~2\bin\Debug\헬스장프로그램.exe
+C:\Users\KB\Desktop\헬스장~2\bin\Debug\헬스장프로그램.pdb
+C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.Form2.resources
+C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.Form1.resources
+C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.Form3.resources
+C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.Form6.resources
+C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.Form7.resources
+C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.Properties.Resources.resources
+C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.exe
+C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.pdb
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\bin\Debug\헬스장프로그램.exe.config
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\bin\Debug\헬스장프로그램.exe
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\bin\Debug\헬스장프로그램.pdb
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\bin\Debug\Oracle.DataAccess.dll
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.Form2.resources
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.Form1.resources
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.Form3.resources
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.Form6.resources
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.Form7.resources
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.Properties.Resources.resources
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.csproj.CopyComplete
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.exe
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.pdb
+C:\Users\KB\Desktop\1_ORALCE_HELTH\헬스장~2\obj\Debug\헬스장프로그램.Form8.resources
+C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.Form8.resources
+C:\Users\KB\Desktop\헬스장~2\obj\Debug\헬스장프로그램.Form9.resources
+C:\Users\KB\Desktop\헬스장~2 (2)\bin\Debug\헬스장프로그램.exe.config
+C:\Users\KB\Desktop\헬스장~2 (2)\bin\Debug\헬스장프로그램.exe
+C:\Users\KB\Desktop\헬스장~2 (2)\bin\Debug\헬스장프로그램.pdb
+C:\Users\KB\Desktop\헬스장~2 (2)\obj\Debug\헬스장프로그램.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\헬스장~2 (2)\obj\Debug\헬스장프로그램.Form2.resources
+C:\Users\KB\Desktop\헬스장~2 (2)\obj\Debug\헬스장프로그램.Form1.resources
+C:\Users\KB\Desktop\헬스장~2 (2)\obj\Debug\헬스장프로그램.Form3.resources
+C:\Users\KB\Desktop\헬스장~2 (2)\obj\Debug\헬스장프로그램.Form6.resources
+C:\Users\KB\Desktop\헬스장~2 (2)\obj\Debug\헬스장프로그램.Form7.resources
+C:\Users\KB\Desktop\헬스장~2 (2)\obj\Debug\헬스장프로그램.Form8.resources
+C:\Users\KB\Desktop\헬스장~2 (2)\obj\Debug\헬스장프로그램.Form9.resources
+C:\Users\KB\Desktop\헬스장~2 (2)\obj\Debug\헬스장프로그램.Properties.Resources.resources
+C:\Users\KB\Desktop\헬스장~2 (2)\obj\Debug\헬스장프로그램.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\헬스장~2 (2)\obj\Debug\헬스장프로그램.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\헬스장~2 (2)\obj\Debug\헬스장프로그램.exe
+C:\Users\KB\Desktop\헬스장~2 (2)\obj\Debug\헬스장프로그램.pdb
+C:\Users\KB\Desktop\헬스장~2 (2)\bin\Debug\Oracle.DataAccess.dll
+C:\Users\KB\Desktop\헬스장~2 (2)\obj\Debug\헬스장프로그램.csproj.CopyComplete
+C:\Users\park\Desktop\1_ORALCE_HELTH\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.csprojAssemblyReference.cache
+C:\Users\park\Desktop\1_ORALCE_HELTH\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.exe
+C:\Users\park\Desktop\1_ORALCE_HELTH\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.pdb
+C:\Users\park\Desktop\1_ORALCE_HELTH\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.Form2.resources
+C:\Users\park\Desktop\1_ORALCE_HELTH\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.Form1.resources
+C:\Users\park\Desktop\1_ORALCE_HELTH\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.Form3.resources
+C:\Users\park\Desktop\1_ORALCE_HELTH\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.Form6.resources
+C:\Users\park\Desktop\1_ORALCE_HELTH\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.Form7.resources
+C:\Users\park\Desktop\1_ORALCE_HELTH\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.Form8.resources
+C:\Users\park\Desktop\1_ORALCE_HELTH\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.Properties.Resources.resources
+C:\Users\park\Desktop\1_ORALCE_HELTH\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.csproj.GenerateResource.cache
+C:\Users\park\Desktop\1_ORALCE_HELTH\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.csproj.CoreCompileInputs.cache
+C:\Users\park\Desktop\1_ORALCE_HELTH\헬스장 20210605(복사해서 사용함)\bin\Debug\헬스장프로그램.exe.config
+C:\Users\park\Desktop\1_ORALCE_HELTH\헬스장 20210605(복사해서 사용함)\bin\Debug\헬스장프로그램.exe
+C:\Users\park\Desktop\1_ORALCE_HELTH\헬스장 20210605(복사해서 사용함)\bin\Debug\헬스장프로그램.pdb
+C:\Users\park\Desktop\1_ORALCE_HELTH\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.csproj.CopyComplete
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\bin\Debug\헬스장프로그램.exe.config
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\bin\Debug\헬스장프로그램.exe
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\bin\Debug\헬스장프로그램.pdb
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\bin\Debug\Oracle.DataAccess.dll
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.Form2.resources
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.Form1.resources
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.Form3.resources
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.Form6.resources
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.Form7.resources
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.Form8.resources
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.Properties.Resources.resources
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.csproj.CopyComplete
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.exe
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.pdb
+C:\Users\KB\Desktop\헬스장 20210605(복사해서 사용함)\obj\Debug\헬스장프로그램.Form4.resources
