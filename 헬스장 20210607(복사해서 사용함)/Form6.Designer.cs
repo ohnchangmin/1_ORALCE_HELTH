@@ -36,14 +36,14 @@ namespace 헬스장프로그램
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.bt_cheak = new System.Windows.Forms.TextBox();
+            this.tel = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button_WOC7 = new ePOSOne.btnProduct.Button_WOC();
             this.button_WOC8 = new ePOSOne.btnProduct.Button_WOC();
             this.button_WOC9 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC6 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_WOC67 = new ePOSOne.btnProduct.Button_WOC();
             this.button_WOC10 = new ePOSOne.btnProduct.Button_WOC();
             this.button_WOC11 = new ePOSOne.btnProduct.Button_WOC();
             this.button_WOC3 = new ePOSOne.btnProduct.Button_WOC();
@@ -125,15 +125,15 @@ namespace 헬스장프로그램
             this.label2.TabIndex = 55;
             this.label2.Text = "연  락  처";
             // 
-            // bt_cheak
+            // tel
             // 
-            this.bt_cheak.Font = new System.Drawing.Font("굴림", 15F);
-            this.bt_cheak.Location = new System.Drawing.Point(488, 94);
-            this.bt_cheak.Margin = new System.Windows.Forms.Padding(5);
-            this.bt_cheak.MaxLength = 11;
-            this.bt_cheak.Name = "bt_cheak";
-            this.bt_cheak.Size = new System.Drawing.Size(170, 30);
-            this.bt_cheak.TabIndex = 50;
+            this.tel.Font = new System.Drawing.Font("굴림", 15F);
+            this.tel.Location = new System.Drawing.Point(488, 94);
+            this.tel.Margin = new System.Windows.Forms.Padding(5);
+            this.tel.MaxLength = 11;
+            this.tel.Name = "tel";
+            this.tel.Size = new System.Drawing.Size(170, 30);
+            this.tel.TabIndex = 50;
             // 
             // label4
             // 
@@ -148,6 +148,7 @@ namespace 헬스장프로그램
             this.label4.Size = new System.Drawing.Size(81, 33);
             this.label4.TabIndex = 57;
             this.label4.Text = "입   력";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // button4
             // 
@@ -235,26 +236,26 @@ namespace 헬스장프로그램
             this.button_WOC9.UseVisualStyleBackColor = true;
             this.button_WOC9.Click += new System.EventHandler(this.button_WOC9_Click);
             // 
-            // button_WOC6
+            // button_WOC67
             // 
-            this.button_WOC6.BorderColor = System.Drawing.Color.Orange;
-            this.button_WOC6.ButtonColor = System.Drawing.Color.Orange;
-            this.button_WOC6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_WOC6.FlatAppearance.BorderSize = 0;
-            this.button_WOC6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC6.Font = new System.Drawing.Font("돋움체", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button_WOC6.ForeColor = System.Drawing.Color.Orange;
-            this.button_WOC6.Location = new System.Drawing.Point(393, 431);
-            this.button_WOC6.Name = "button_WOC6";
-            this.button_WOC6.OnHoverBorderColor = System.Drawing.Color.Gray;
-            this.button_WOC6.OnHoverButtonColor = System.Drawing.Color.Yellow;
-            this.button_WOC6.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.button_WOC6.Size = new System.Drawing.Size(83, 67);
-            this.button_WOC6.TabIndex = 64;
-            this.button_WOC6.Text = "010";
-            this.button_WOC6.TextColor = System.Drawing.Color.White;
-            this.button_WOC6.UseVisualStyleBackColor = true;
-            this.button_WOC6.Click += new System.EventHandler(this.button_WOC10_Click);
+            this.button_WOC67.BorderColor = System.Drawing.Color.Orange;
+            this.button_WOC67.ButtonColor = System.Drawing.Color.Orange;
+            this.button_WOC67.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_WOC67.FlatAppearance.BorderSize = 0;
+            this.button_WOC67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_WOC67.Font = new System.Drawing.Font("돋움체", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_WOC67.ForeColor = System.Drawing.Color.Orange;
+            this.button_WOC67.Location = new System.Drawing.Point(495, 343);
+            this.button_WOC67.Name = "button_WOC67";
+            this.button_WOC67.OnHoverBorderColor = System.Drawing.Color.Gray;
+            this.button_WOC67.OnHoverButtonColor = System.Drawing.Color.Yellow;
+            this.button_WOC67.OnHoverTextColor = System.Drawing.Color.Gray;
+            this.button_WOC67.Size = new System.Drawing.Size(83, 67);
+            this.button_WOC67.TabIndex = 64;
+            this.button_WOC67.Text = "8";
+            this.button_WOC67.TextColor = System.Drawing.Color.White;
+            this.button_WOC67.UseVisualStyleBackColor = true;
+            this.button_WOC67.Click += new System.EventHandler(this.button_WOC67_Click);
             // 
             // button_WOC10
             // 
@@ -265,14 +266,14 @@ namespace 헬스장프로그램
             this.button_WOC10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_WOC10.Font = new System.Drawing.Font("돋움체", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_WOC10.ForeColor = System.Drawing.Color.Orange;
-            this.button_WOC10.Location = new System.Drawing.Point(495, 343);
+            this.button_WOC10.Location = new System.Drawing.Point(391, 431);
             this.button_WOC10.Name = "button_WOC10";
             this.button_WOC10.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.button_WOC10.OnHoverButtonColor = System.Drawing.Color.Yellow;
             this.button_WOC10.OnHoverTextColor = System.Drawing.Color.Gray;
             this.button_WOC10.Size = new System.Drawing.Size(83, 67);
             this.button_WOC10.TabIndex = 64;
-            this.button_WOC10.Text = "8";
+            this.button_WOC10.Text = "010";
             this.button_WOC10.TextColor = System.Drawing.Color.White;
             this.button_WOC10.UseVisualStyleBackColor = true;
             this.button_WOC10.Click += new System.EventHandler(this.button_WOC10_Click);
@@ -433,7 +434,7 @@ namespace 헬스장프로그램
             this.Controls.Add(this.button_WOC7);
             this.Controls.Add(this.button_WOC8);
             this.Controls.Add(this.button_WOC9);
-            this.Controls.Add(this.button_WOC6);
+            this.Controls.Add(this.button_WOC67);
             this.Controls.Add(this.button_WOC10);
             this.Controls.Add(this.button_WOC11);
             this.Controls.Add(this.button_WOC3);
@@ -444,7 +445,7 @@ namespace 헬스장프로그램
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.bt_cheak);
+            this.Controls.Add(this.tel);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
@@ -470,7 +471,7 @@ namespace 헬스장프로그램
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox bt_cheak;
+        private System.Windows.Forms.TextBox tel;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button4;
         private ePOSOne.btnProduct.Button_WOC button_WOC1;
@@ -484,6 +485,6 @@ namespace 헬스장프로그램
         private ePOSOne.btnProduct.Button_WOC button_WOC10;
         private ePOSOne.btnProduct.Button_WOC button_WOC11;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private ePOSOne.btnProduct.Button_WOC button_WOC6;
+        private ePOSOne.btnProduct.Button_WOC button_WOC67;
     }
 }

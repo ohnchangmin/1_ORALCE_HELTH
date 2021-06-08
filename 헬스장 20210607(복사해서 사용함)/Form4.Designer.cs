@@ -36,20 +36,26 @@ namespace 헬스장프로그램
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(131, 105);
+            this.label1.Font = new System.Drawing.Font("돋움체", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.ForeColor = System.Drawing.Color.DimGray;
+            this.label1.Location = new System.Drawing.Point(116, 172);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 12);
+            this.label1.Size = new System.Drawing.Size(574, 24);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "환영합니다        님 만료일까지   일 남았습니다";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(368, 344);
+            this.button1.BackColor = System.Drawing.Color.Orange;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("돋움체", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
+            this.button1.Location = new System.Drawing.Point(292, 302);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(170, 52);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = "확    인";
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form4
@@ -60,6 +66,7 @@ namespace 헬스장프로그램
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Form4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form4";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -83,7 +83,7 @@ namespace 헬스장프로그램
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox6.Location = new System.Drawing.Point(100, 113);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(278, 216);
@@ -95,7 +95,7 @@ namespace 헬스장프로그램
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.label3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(121, 149);
@@ -103,12 +103,13 @@ namespace 헬스장프로그램
             this.label3.Size = new System.Drawing.Size(178, 42);
             this.label3.TabIndex = 15;
             this.label3.Text = "헬스장 관리";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.label4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label4.Location = new System.Drawing.Point(121, 203);
@@ -116,12 +117,13 @@ namespace 헬스장프로그램
             this.label4.Size = new System.Drawing.Size(148, 42);
             this.label4.TabIndex = 16;
             this.label4.Text = "문자 발송";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.label5.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Location = new System.Drawing.Point(126, 276);
@@ -129,6 +131,7 @@ namespace 헬스장프로그램
             this.label5.Size = new System.Drawing.Size(234, 16);
             this.label5.TabIndex = 17;
             this.label5.Text = "HEALTH MANAGEMENT PROGRAM";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // pictureBox2
             // 
@@ -444,7 +447,7 @@ namespace 헬스장프로그램
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.pictureBox3);
-            this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

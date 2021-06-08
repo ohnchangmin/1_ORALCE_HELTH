@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Oracle.DataAccess.Client;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,54 @@ namespace 헬스장프로그램
 {
     public partial class Form5 : Form
     {
+        int i;
         public Form5()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (i == 1) { MessageBox.Show("문자 발송", "전송"); }
+            else { MessageBox.Show("조회할 이름을 선택해주세요", "오류"); }
+        }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+            i = 0;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label10.Text = DateTime.Now.ToString();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            i = 1;
+            string query = "SELECT * FROM V_EXCUS";
+            grid(query);
+        }
+
+        private void grid(string query)
+        {
+            string conStr = "Data Source=XE; User ID=HEALTH; Password=1234;";
+            OracleConnection conn = new OracleConnection(conStr);
+            conn.Open();
+            DataSet ds = new DataSet();
+            OracleDataAdapter da = new OracleDataAdapter(query, conn);
+            da.Fill(ds);
+            dataGridView1.DataSource = ds.Tables[0];
+     
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Form1 showForm1 = new Form1();
+            showForm1.Show();
         }
     }
 }

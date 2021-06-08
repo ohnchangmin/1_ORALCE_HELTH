@@ -19,6 +19,7 @@ namespace 헬스장프로그램
             InitializeComponent();
         }
         Form3 showForm3 = new Form3();
+        Form5 showForm5 = new Form5();
         Form6 showForm6 = new Form6();
         Form7 showForm7 = new Form7();
         Form8 showForm8 = new Form8();
@@ -190,13 +191,36 @@ namespace 헬스장프로그램
         private void pictureBox4_Click_2(object sender, EventArgs e)
         {
             this.Visible = false;
-            
+
             showForm8.Show();
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
+            this.Visible = false;
 
+            showForm5.Show();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+
+            showForm5.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+
+            showForm5.Show();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+
+            showForm5.Show();
         }
     }
 }

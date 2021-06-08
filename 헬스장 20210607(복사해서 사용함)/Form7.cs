@@ -93,7 +93,7 @@ namespace 헬스장프로그램
 
         private void label3_Click(object sender, EventArgs e)
         {
-            string query = "SELECT * FROM V_INBODY";
+            string query = "SELECT * FROM INBODY WHERE TEL = '" + tel.Text + "'";
             grid(query);
         }
 

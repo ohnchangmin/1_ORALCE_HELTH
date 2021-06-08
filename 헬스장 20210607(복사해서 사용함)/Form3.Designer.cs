@@ -167,7 +167,7 @@ namespace 헬스장프로그램
             // 
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("돋움체", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dateTimePicker1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.dateTimePicker1.CustomFormat = "yyyy-MM-dd";
+            this.dateTimePicker1.CustomFormat = "";
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker1.Location = new System.Drawing.Point(309, 269);
             this.dateTimePicker1.Name = "dateTimePicker1";
@@ -356,6 +356,7 @@ namespace 헬스장프로그램
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
+            this.checkBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.checkBox1.Font = new System.Drawing.Font("돋움체", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.checkBox1.Location = new System.Drawing.Point(483, 368);
             this.checkBox1.Name = "checkBox1";
