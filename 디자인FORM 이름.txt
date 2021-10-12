@@ -1,5 +1,0 @@
-FORM1.CS - 메인메뉴
-FORM3.CS - 신규등록
-FORM6.CS - 입장
-FORM7.CS - 회원조회
-FORM8.CS - 연장
